@@ -1,5 +1,16 @@
 # 版本历史
 
+## v2.8.5 - 2026-08-02
+
+- 项目自有代码改用 PolyForm Noncommercial License 1.0.0，仅允许学习、研究、实验和其他非商业用途。
+- README 与安装目录加入针对招聘自动化、AI 辅助决策、候选人隐私、第三方平台和数据安全的免责声明。
+- NSIS 安装向导展示完整许可条款，安装目录附带 `LICENSE`、`DISCLAIMER.md` 和 `THIRD_PARTY_NOTICES.md`。
+- 明确第三方依赖继续适用各自的 MIT、BSD、Apache 等许可证。
+- 完整检查通过：47 项后端测试、13 项前端测试、类型检查、lint 和生产构建。
+- NSIS 安装包：`HR筛选简历助手-Setup-2.8.5.exe`，大小为 121,156,170 字节。
+- SHA-256：`1066EC44E5C3370E51BB2FDFFEE1D08FC60F14F70C4AFC2B660AB135378AD7ED`。
+- 安装包暂未使用商业代码签名证书，安装时可能触发 Windows SmartScreen 提示。
+
 ## v2.8.4 - 2026-08-02
 
 这是“HR筛选简历助手”Windows 单机独立版的首个版本。
