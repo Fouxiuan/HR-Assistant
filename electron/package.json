@@ -1,7 +1,8 @@
 {
   "name": "hr-resume-screening-assistant",
-  "version": "2.8.4",
+  "version": "2.8.5",
   "description": "HR筛选简历助手 Windows 单机独立版",
+  "license": "SEE LICENSE IN ../LICENSE",
   "main": "app.js",
   "author": "dazhahui",
   "scripts": {
@@ -41,6 +42,18 @@
         "to": "app-root/package.json"
       },
       {
+        "from": "../LICENSE",
+        "to": "app-root/LICENSE"
+      },
+      {
+        "from": "../DISCLAIMER.md",
+        "to": "app-root/DISCLAIMER.md"
+      },
+      {
+        "from": "../THIRD_PARTY_NOTICES.md",
+        "to": "app-root/THIRD_PARTY_NOTICES.md"
+      },
+      {
         "from": "../node_modules/@napi-rs/canvas",
         "to": "backend/node_modules/@napi-rs/canvas"
       },
@@ -61,6 +74,7 @@
     },
     "nsis": {
       "oneClick": false,
+      "license": "build/license.txt",
       "allowToChangeInstallationDirectory": true,
       "installerIcon": "build/icon.ico",
       "uninstallerIcon": "build/icon.ico",
