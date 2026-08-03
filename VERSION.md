@@ -1,5 +1,17 @@
 # 版本历史
 
+## v2.8.6 - 2026-08-03
+
+- 项目自有代码由 PolyForm Noncommercial License 1.0.0 改为标准 MIT License，允许使用、修改、分发和商业使用，但必须保留版权及许可声明。
+- 保留招聘自动化、AI 辅助决策、候选人隐私、第三方平台和数据安全免责声明；免责声明不增加 MIT License 之外的使用限制。
+- README 增加 BrowserWing 的用途介绍、官方仓库链接和无隶属或背书关系说明。
+- `THIRD_PARTY_NOTICES.md` 保留 BrowserWing 1.1.0 的完整 MIT 版权及许可声明。
+- NSIS 安装向导展示 MIT License，安装目录继续附带 `LICENSE`、`DISCLAIMER.md` 和 `THIRD_PARTY_NOTICES.md`。
+- 完整检查通过：47 项后端测试、13 项前端测试、类型检查、lint 和生产构建；打包应用启动冒烟测试通过。
+- NSIS 安装包：`HR筛选简历助手-Setup-2.8.6.exe`，大小为 121,154,585 字节。
+- SHA-256：`88B13ABCE54C8E61196A6C268B2575A5AEFA5039F9ACC60FB8DA105EACBB8D49`。
+- 安装包暂未使用商业代码签名证书，安装时可能触发 Windows SmartScreen 提示。
+
 ## v2.8.5 - 2026-08-02
 
 - 项目自有代码改用 PolyForm Noncommercial License 1.0.0，仅允许学习、研究、实验和其他非商业用途。
