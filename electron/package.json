@@ -1,8 +1,8 @@
 {
   "name": "hr-resume-screening-assistant",
-  "version": "2.8.5",
+  "version": "2.8.6",
   "description": "HR筛选简历助手 Windows 单机独立版",
-  "license": "SEE LICENSE IN ../LICENSE",
+  "license": "MIT",
   "main": "app.js",
   "author": "dazhahui",
   "scripts": {
