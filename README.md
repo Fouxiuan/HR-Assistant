@@ -11,6 +11,7 @@
 - 本机候选人库、运行历史与失败统计
 - 本机 JD 创建、Markdown 导入和编辑
 - 招聘邮箱 IMAP 轮询、PDF 原件保存、联系方式合并和邮件幂等
+- 通过 IMAP 协议读取、搜索和管理邮件。通过 SMTP 协议发送邮件。支持 Gmail、Outlook、163.com、vip.163.com、126.com、vip.126.com、188.com、vip.188.com 以及任何标准 IMAP/SMTP 服务器。
 - AI 与邮箱密钥使用 AES-256-GCM 单独加密
 - `.hrbackup` 一键加密备份与恢复
 - Windows Electron NSIS 安装包，以及 Node.js 24+ 源码运行
