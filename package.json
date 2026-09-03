@@ -22,7 +22,7 @@
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.10.2",
     "dotenv": "^16.4.7",
-    "express": "^4.21.2",
+    "express": "^5.2.1",
     "imapflow": "1.6.1",
     "mailparser": "3.9.14",
     "pdf-parse": "2.4.5"
