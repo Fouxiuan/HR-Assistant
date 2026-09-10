@@ -24,7 +24,7 @@
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "imapflow": "1.6.1",
-    "mailparser": "3.9.14",
+    "mailparser": "3.9.23",
     "pdf-parse": "2.4.5"
   },
   "devDependencies": {
