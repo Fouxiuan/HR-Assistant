@@ -20,7 +20,7 @@
     "check": "npm run typecheck && npm run lint && npm test && npm --prefix web test && npm run build:web"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.10.2",
+    "@modelcontextprotocol/sdk": "^1.32.0",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "imapflow": "1.6.1",
